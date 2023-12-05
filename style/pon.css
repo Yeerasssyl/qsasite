@@ -1,0 +1,120 @@
+body {
+    background-image: url("retro6.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    color: white;
+}
+div.bir {
+     margin: auto;
+     margin-top: 200px;
+     width: 60%;
+     padding: 10px;
+}
+p.one {
+    text-align: center;
+    font-size: 30px;
+    font-family: Georgia, serif;
+}
+a.one {
+    color: orange;
+    text-decoration: none;
+}
+a.two {
+    color: MediumTurquoise;
+    text-decoration: none;
+}
+a.red {
+    font-family: Impact, fantasy;
+    color: SandyBrown;
+}
+a.blue {
+    color: MediumSlateBlue;
+}
+a.fest {
+    color: LemonChiffon;
+}
+a.zal {
+    color: LawnGreen;
+}
+a.data {
+    font-size: 35px;
+}
+div.eki {
+    margin: auto;
+    width: 60%;
+    padding: 5px;
+}
+h1 {
+    text-align: center;
+    font-size: 90px;
+    font-family: Garamond, serif;
+}
+div.ush {
+    margin: auto;
+    width: 60%;
+    padding: 5px;
+}
+h1.sol {
+    font-size: 90px;
+    color: Goldenrod;
+    font-family: URW Chancery L, cursive;
+}
+h6 {
+    text-align: center;
+    font-size: 27px;
+
+}
+div.bal {
+    margin: auto;
+    align-content: center;
+}
+.container {
+            max-width: 800px;
+            margin: 50px auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+}
+
+.photo {
+            width: 48%;
+            margin: 1%;
+            border-radius: 8px;
+}
+p.t {
+    color: Orange;
+    font-size: 25px;
+}
+div.end {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+h3 {
+    align: center;
+    font-size: 60px;
+    color: ;
+}
+
+ @media (max-width: 1000px) {
+    .title {
+        font-size : 50px;
+        width: auto;
+    }
+ }
+  @media (max-width: 950px) {
+    body {
+        background-image: url("retro7.jpeg");
+    }
+}
+@media (max-width: 850px) {
+    h3 {
+        font-size: 40px;
+    }
+}
+@media (max-width: 750px) {
+    .container {
+        max-width: 400px;
+    }
+}
